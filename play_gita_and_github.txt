@@ -16,3 +16,8 @@
 16、从暂存区到版本区:git commit(会弹出一个对话框，写上英文注释)，从暂存区到版本库是通过commit来实现的
 17、git add . 然后，git commit -m "注释内容"
 18、撤回到工作区:git reset HEAD 文件全称.html，从暂存区撤回到工作区
+19、简写方式:从工作区到版本区: git commit -a -m "add play_git_and_github.txt(这是注释的意思)"
+20、查看历史:git log
+21、如何查看三个区之间的差异:git diff(对比工具，指的是工作区和暂存区的对比)
+22、暂存区与版本区的对比:git diff --cached
+23、工作区还原到版本区:git checkout -- 文件名
