@@ -1,4 +1,4 @@
-1、在github官网上新建一个仓库
+﻿1、在github官网上新建一个仓库
 2、进入指定文件夹下：cd F:(进入F盘)
 3、进入指定文件夹下：cd github(进入指定文件夹下)
 4、复制官网上的地址:git clone https://github.com/HorseSwallowGitHub/learning_summary.git(本地就会出现这个文件夹)
@@ -10,5 +10,9 @@
 10、master是什么？:这是分支的意思
 11、git的三个区:工作区、暂存区、版本区(库)
 12、git命令:git status(查看工作状态)
-13、在工作区中新建一个文件，再次运行git status
-
+13、在工作区中新建一个文件，再次运行git status，这里知道文件这时候在工作区，需要放在暂存区里面
+14、将文件放在暂存区:git add 文件名(尽量英文名)
+15、从工作区到暂存区，使用了add
+16、从暂存区到版本区:git commit(会弹出一个对话框，写上英文注释)，从暂存区到版本库是通过commit来实现的
+17、git add . 然后，git commit -m "注释内容"
+18、撤回到工作区:git reset HEAD 文件全称.html，从暂存区撤回到工作区
