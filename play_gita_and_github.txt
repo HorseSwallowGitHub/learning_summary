@@ -1,0 +1,14 @@
+1、在github官网上新建一个仓库
+2、进入指定文件夹下：cd F:(进入F盘)
+3、进入指定文件夹下：cd github(进入指定文件夹下)
+4、复制官网上的地址:git clone https://github.com/HorseSwallowGitHub/learning_summary.git(本地就会出现这个文件夹)
+5、进入这个项目:cd learning_summary
+6、设置贡献者账号:(保持跟github账号和邮箱一致):git config --global user.name "HorseSwallowGitHub"
+7、设置贡献者邮箱:git config --global user.eamil "2440711630@qq.com"
+8、如何查看自己设置的用户名和邮箱:git config --global user.name/git config --global user.email
+9、查看所有信息:git config --list
+10、master是什么？:这是分支的意思
+11、git的三个区:工作区、暂存区、版本区(库)
+12、git命令:git status(查看工作状态)
+13、在工作区中新建一个文件，再次运行git status
+
