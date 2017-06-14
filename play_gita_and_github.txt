@@ -21,3 +21,8 @@
 21、如何查看三个区之间的差异:git diff(对比工具，指的是工作区和暂存区的对比)
 22、暂存区与版本区的对比:git diff --cached
 23、工作区还原到版本区:git checkout -- 文件名
+24、git的删除操作：在工作区进行删除即可，使用git status可以查看状态；如果放在暂存区，删除方式：git rm 文件名；
+25、git rm -f 文件名和git rm --cached 文件名的区别：工作区和暂存区都有，强制删除两个区，cached会保留工作区的状态，只删除暂存区
+25、如何同步到远程仓库：打开命令行命令，进入目录下面，git log查看版本信息，客户端是否与GitHub账号同步，git remote，origin是默认的仓库的名字，此名字可以改的
+git remove -v 查看远程对应的地址，git push origin master ；7commits 是说你总共更新了多少版本
+26、添加权限；working，
